@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+header{
+	flex: 100%;
+	background-color: blue;
+	/*width: 100%;*/
+	height: 100px;
+}
+
+.centro{
+	background-color: red;
+	/*width: 100%;*/
+	flex: 100%;
+	height: 200px;
+}
+
+.repe{
+	background-color: greenyellow;
+	flex: 31%;
+	/*width: 30%;*/
+	height: 150px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.izq{
+	background-color: black;
+	flex:18%;
+	/*width: 20%;*/
+	height: 291px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-evenly;
+	justify-content: center;
+}
+
+.sepv{
+	flex:80%;
+	/*background-color: brown;*/
+	height: 300px;
+
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0px;
+}
+
+.ver{
+	flex:100%;
+	background-color: brown;
+	height: 47%;
+}
+
+
+
+
+
+
+/*contenido*/
+h1{
+	color: white;
+	padding: 10px;
+}
+
+h2{
+	padding-left: 10px;
+}
+
+p{
+	padding-left: 10px;
+}
+
+.imgtres{
+	margin: 0;
+	padding: 0;
+
+	width: auto;
+	height: auto;
+	flex: 100%;
+	max-height: 130px;
+
+	/*padding-top: 10px;*/
+	object-fit: contain; /* La imagen se ajusta dentro del contenedor sin recortes, manteniendo la relación de aspecto. */
+}
+
+button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049; /* Verde más oscuro */
+}
+
+.bs{
+	flex:1 1 100%;
+	display: flex;
+	justify-content: center;
+}
