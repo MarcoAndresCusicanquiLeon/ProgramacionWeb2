@@ -1,0 +1,274 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 80px 80px 160px 730px 350px 100px;
+	grid-gap: 8px;
+}
+
+.azul{
+	grid-row: span 1;
+	grid-column: span 2;
+	background-color: blue;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.celeste{
+	grid-row: span 1;
+	grid-column: span 2;
+	background-color: cyan;
+
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 8px;
+	justify-items: center;
+	align-items: center;
+}
+
+.lev{
+	transition: all 0.4s;
+}
+
+.lev:hover{
+	transform: translateY(-10px);
+	color: darkred;
+}
+
+.menuop{
+	margin:0;
+
+	grid-row: span 1;
+	grid-column: span 1;
+}
+
+.naranja{
+	grid-row: span 1;
+	grid-column: span 2;
+	background-color: orange;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	justify-items: center;
+	align-items: center;
+}
+
+.izq3der{
+	margin: 0;
+	grid-row: span 1;
+	grid-column: span 2;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 2fr 2fr;
+	grid-gap: 8px;
+}
+
+.verdeizq{
+	grid-row: span 3;
+	grid-column: span 1;
+	background-color: green;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	justify-items: center;
+	align-items: center;
+}
+
+.plomo{
+	grid-row: span 1;
+	grid-column: span 1;
+	background-color: grey;
+}
+
+.verde{
+	grid-row: span 1;
+	grid-column: span 1;
+	background-color: yellowgreen;
+}
+
+.blanco{
+	grid-row: span 1;
+	grid-column: span 1;
+	background-color: lightgrey;
+}
+
+.izq2der{
+	margin: 0;
+	grid-row: span 1;
+	grid-column: span 2;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 8px;
+}
+
+.plomoizq{
+	grid-row: span 2;
+	grid-column: span 1;
+	background-color: slategray;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 8fr;
+	grid-gap: 3px;
+	justify-items: center;
+	align-items: center;
+}
+
+.cafe{
+	grid-row: span 1;
+	grid-column: span 1;
+	background-color: brown;
+
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	
+	justify-items: center;
+	align-items: center;
+}
+
+.violeta{
+	grid-row: span 1;
+	grid-column: span 1;
+	background-color: violet;
+
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	
+	justify-items: center;
+	align-items: center;
+}
+
+.abajo{
+	margin: 0;
+	grid-row: span 1;
+	grid-column: span 2;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 8px;
+}
+
+.caba{
+	grid-row: span 1;
+	grid-column: span 1;
+	background-color: darkorange;
+}
+
+
+
+/*contenido*/
+h1{
+	color:white;
+	grid-row: span 1;
+	grid-column: span 1;
+	justify-self: center;
+}
+
+.imgnaranja{
+	width: auto;
+	height: auto;
+	max-height: 150px;
+}
+
+.imgverde{
+	width: auto;
+	height: auto;
+	max-height: 220px;
+}
+
+.imgcafe{
+	width: auto;
+	height: auto;
+	max-height: 150px;
+}
+
+tr, td {
+    border: 1px solid black; /* Bordes para las celdas */
+    padding: 2px; /* Espaciado interno */
+    height: 5px; /* Establece la altura de las celdas */
+}
+
+.mapa{
+	grid-row: span 1;
+	grid-column: span 1;
+	justify-self: center;
+}
+
+
+/**/
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/*cards*/
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    max-width: 300px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #fff;
+}
+.card img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.card p {
+    color: #555;
+}
+.card button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card button:hover {
+    background-color: #0056b3;
+}
