@@ -1,0 +1,110 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 40px 80px 80px 230px 250px 100px;
+	grid-gap: 8px;
+}
+
+.azul{
+	grid-row: span 1;
+	grid-column: span 2;
+	background-color: blue;
+}
+
+.celeste{
+	grid-row: span 1;
+	grid-column: span 2;
+	background-color: cyan;
+}
+
+.naranja{
+	grid-row: span 1;
+	grid-column: span 2;
+	background-color: orange;
+}
+
+.izq3der{
+	margin: 0;
+	grid-row: span 1;
+	grid-column: span 2;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 2fr 2fr;
+	grid-gap: 8px;
+}
+
+.verdeizq{
+	grid-row: span 3;
+	grid-column: span 1;
+	background-color: green;
+}
+
+.plomo{
+	grid-row: span 1;
+	grid-column: span 1;
+	background-color: grey;
+}
+
+.verde{
+	grid-row: span 1;
+	grid-column: span 1;
+	background-color: yellowgreen;
+}
+
+.blanco{
+	grid-row: span 1;
+	grid-column: span 1;
+	background-color: lightgrey;
+}
+
+.izq2der{
+	margin: 0;
+	grid-row: span 1;
+	grid-column: span 2;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 8px;
+}
+
+.plomoizq{
+	grid-row: span 2;
+	grid-column: span 1;
+	background-color: slategray;
+}
+
+.cafe{
+	grid-row: span 1;
+	grid-column: span 1;
+	background-color: brown;
+}
+
+.violeta{
+	grid-row: span 1;
+	grid-column: span 1;
+	background-color: violet;
+}
+
+.abajo{
+	margin: 0;
+	grid-row: span 1;
+	grid-column: span 2;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 8px;
+}
+
+.caba{
+	grid-row: span 1;
+	grid-column: span 1;
+	background-color: darkorange;
+}
