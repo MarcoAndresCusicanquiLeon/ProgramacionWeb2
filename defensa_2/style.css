@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.titu{
+	color:white;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.pmid{
+	color:white;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.lados{
+	 background-color:darkcyan;
+	 height: 300px;
+}
+
+table, th, td{
+	border: 5px solid black;
+	color:white;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.subti{
+	color: red;
+	font-weight: 1000;
+}
+
+table{
+	width:100%;
+}
+
+.abaizq{
+	background-image: url(img/wallp);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
