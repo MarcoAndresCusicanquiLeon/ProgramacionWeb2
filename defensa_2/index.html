@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejercicio</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<!-- menu -->
+			<div class="col-12 d-flex justify-content-center align-items-center" style="background-color:black; height: 100px;">
+				<!-- ini menu-->
+
+				<nav class="navbar navbar-expand-lg text-bg-dark p-3">
+				  <div class="container-fluid">
+				    <a class="navbar-brand text-bg-dark p-3" href="#">Menu</a>
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				        <li class="nav-item">
+				          <a class="nav-link active text-bg-dark p-3" aria-current="page" href="#">Principal</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link text-bg-dark p-3" href="#">Tutoriales</a>
+				        </li>
+				        <li class="nav-item dropdown">
+				          <a class="nav-link dropdown-toggle text-bg-dark p-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				            Contests
+				          </a>
+				          <ul class="dropdown-menu">
+				            <li><a class="dropdown-item" href="#">Codeforces</a></li>
+				            <li><a class="dropdown-item" href="#">Codechef</a></li>
+				            <li><a class="dropdown-item" href="#">Atcoder</a></li>
+				            <li><hr class="dropdown-divider"></li>
+				            <li><a class="dropdown-item" href="#">SPOJ</a></li>
+				          </ul>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link disabled text-bg-dark p-3" aria-disabled="true">Contests Bolivia</a>
+				        </li>
+				      </ul>
+				      <form class="d-flex" role="search">
+				        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				        <button class="btn btn-outline-success" type="submit">Search</button>
+				      </form>
+				    </div>
+				  </div>
+				</nav>
+
+				<!-- fin menu-->
+			</div>
+		</div>
+		<!-- fila del medio-->
+		<div class="row">
+			<div class="col-3 d-flex justify-content-center align-items-center border border-5 border-danger lados">
+				<img class="img-fluid w-50" src="img/cdc.jpeg" alt="Codechef">
+			</div>
+			<div class="col-6" style="background-color:green; height: 300px;">
+				<div class="row">
+					<div class="col-12 d-flex justify-content-center align-items-center" style="background-color:black; height: 100px;">
+						<h1 class="titu"> Competitive Programming</h1>
+					</div>
+					<div class="col-12 d-flex justify-content-center align-items-center" style="background-color:darkblue; height: 200px;">
+						<p class="pmid">Son competencias donde se mide las habilidades de programación y algoritmia de los participantes para resolver un conjunto de problemas lógicos y matemáticos.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-3 d-flex justify-content-end align-items-end border border-5 border-danger lados">
+				<img class="img-fluid w-50" src="img/cf.png" alt="Codeforces">
+			</div>
+		</div>
+		<!-- fila final -->
+		<div class="row">
+			<!-- tabla -->
+			<div class="col-8 abaizq d-flex justify-content-center align-items-center border border-5 border-success" style="background-color:yellowgreen; height: 400px;">
+				<table>
+					<tr>
+						<td class="subti">Ranking</td>
+						<td class="subti">Sitio</td>
+					</tr>
+					<tr>
+						<td class="subti">1 Rusia</td>
+						<td>
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary text-bg-danger p-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+							  Codeforces
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td class="subti">2 India</td>
+						<td>
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary text-bg-success p-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+							  Codechef
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td class="subti">3 Japon</td>
+						<td>
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary text-bg-warning p-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+							  Atcoder
+							</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<!-- imagen -->
+			<div class="col-4 d-flex justify-content-start align-items-center border border-5 border-success" style="background-color:darkgrey; height: 400px;">
+				<img class="img-fluid w-50" src="img/atc.jpeg" alt="Atcoder">
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h1 class="modal-title fs-5" id="exampleModalLabel">Informacion del sitio web</h1>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	      </div>
+	      <div class="modal-body">
+	        Aca apareceran los sitios relacionados al boton.
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+	        <button type="button" class="btn btn-primary">Guardar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
